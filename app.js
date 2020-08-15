@@ -2,6 +2,7 @@
 const playBtn = document.querySelector('.play-btn img');
 const resetBtn = document.querySelector('.reset-btn img');
 
+
 function play() {
 	alert('play');
 }
