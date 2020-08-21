@@ -16,16 +16,12 @@
 
 		<main>
 			<div class="stop-watch">
-				<h1 class="time-elapsed"> <span class="hour">00</span>:<span class="minute">00</span>:<span class="sec">00</span>:<span class="ms">00</span> </h1>
+				<h1 id="display">00:00:00</h1>
 			</div>
 
 			<div class="ctrl-btns">				
-				<div class="play-btn">
-					<img src="./img/play-button-svgrepo-com.svg" alt="">
-				</div>
-				<div class="reset-btn">
-					<img src="./img/icons8-restart.svg" alt="">
-				</div>
+				<button id="startStop" onclick="startStop()">Start</button>
+				<button id="reset" onclick="reset()">Reset</button>
 			</div>
 		</main>
 	</div>
